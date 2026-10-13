@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar.API", "CalendarApp\Calendar.API.csproj", "{60AE8433-B09E-40BE-B713-C4EE3736AFF4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0F5E2389-17AD-45C8-B856-A68385DA87BD} = {0F5E2389-17AD-45C8-B856-A68385DA87BD}
+		{572B95A2-3C34-4B3C-9512-D25D53F6C7AE} = {572B95A2-3C34-4B3C-9512-D25D53F6C7AE}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar.BLL", "Calendar.BLL\Calendar.BLL.csproj", "{572B95A2-3C34-4B3C-9512-D25D53F6C7AE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0F5E2389-17AD-45C8-B856-A68385DA87BD} = {0F5E2389-17AD-45C8-B856-A68385DA87BD}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar.DAL", "Calendar.DAL\Calendar.DAL.csproj", "{0F5E2389-17AD-45C8-B856-A68385DA87BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60AE8433-B09E-40BE-B713-C4EE3736AFF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60AE8433-B09E-40BE-B713-C4EE3736AFF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60AE8433-B09E-40BE-B713-C4EE3736AFF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60AE8433-B09E-40BE-B713-C4EE3736AFF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{572B95A2-3C34-4B3C-9512-D25D53F6C7AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{572B95A2-3C34-4B3C-9512-D25D53F6C7AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{572B95A2-3C34-4B3C-9512-D25D53F6C7AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{572B95A2-3C34-4B3C-9512-D25D53F6C7AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F5E2389-17AD-45C8-B856-A68385DA87BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F5E2389-17AD-45C8-B856-A68385DA87BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F5E2389-17AD-45C8-B856-A68385DA87BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F5E2389-17AD-45C8-B856-A68385DA87BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {529B2294-8817-4ACC-A17F-C4E219E833DE}
+	EndGlobalSection
+EndGlobal
